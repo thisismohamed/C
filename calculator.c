@@ -10,7 +10,8 @@ int main() {
 
         printf("Enter two operands: ");
         scanf("%lf %lf", &num1, &num2);
-                                                   if (operation == '+')
+
+        if (operation == '+')
                 result = num1 + num2;
         else if (operation == '-')
                 result = num1 - num2;
